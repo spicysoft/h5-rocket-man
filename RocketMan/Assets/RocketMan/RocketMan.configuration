@@ -16,6 +16,8 @@
             "orientation": 0,
             "renderMode": 0
         }, {
+            "$type": "RocketMan.GameConfig, RocketMan"
+        }, {
             "$type": "Unity.Tiny.Scenes.Scenes, Unity.Tiny.Scenes",
             "Elements": [{
                 "SceneReference": {
@@ -35,6 +37,10 @@
                 "StableTypeHash": 7960064150805274675
             }, {
                 "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 14597393520093944258
+            }, {
+                "StableTypeHash": 14827791696983227800
             }]
         }, {
             "$type": "Unity.Authoring.Core.ConfigurationTag, Unity.Authoring.Core"
