@@ -21,11 +21,17 @@ namespace RocketMan
 
             if (!config.RandomSet)
                 return;
+
             config.RandomSet = false;
-            Entities.ForEach((Entity wallEntity, ref Planet planet, ref Translation Transform) =>
+
+
+            Entities.ForEach((Entity entity, ref Planet planet, ref Translation Transform) =>
             {
                 Transform.Value = _random.NextInt3(new int3(x: -20, y: -20, z: 0), new int3(x: 20, y: 20, z: 0));
+                config.PlanetLocation = Transform;
             });
+
+            config.WaitforSeconds = true;
             tinyEnv.SetConfigData(config);
         }
     }

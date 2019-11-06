@@ -5,6 +5,11 @@
     "AssetReferences": [],
     "Entities": [{
         "Components": [{
+            "$type": "RocketMan.GameConfig, RocketMan",
+            "PlanetLocation": {
+                "Value": {}
+            }
+        }, {
             "$type": "Unity.Entities.EntityGuid, Unity.Entities",
             "a": 7587024734231610012,
             "b": 12868467007759990031
@@ -15,8 +20,6 @@
             "autoSizeToFrame": true,
             "orientation": 0,
             "renderMode": 0
-        }, {
-            "$type": "RocketMan.GameConfig, RocketMan"
         }, {
             "$type": "Unity.Tiny.Scenes.Scenes, Unity.Tiny.Scenes",
             "Elements": [{
@@ -41,6 +44,12 @@
                 "StableTypeHash": 14597393520093944258
             }, {
                 "StableTypeHash": 14827791696983227800
+            }, {
+                "StableTypeHash": 18389876003283478495
+            }, {
+                "StableTypeHash": 13114927604715643739
+            }, {
+                "StableTypeHash": 8678841606301606612
             }]
         }, {
             "$type": "Unity.Authoring.Core.ConfigurationTag, Unity.Authoring.Core"

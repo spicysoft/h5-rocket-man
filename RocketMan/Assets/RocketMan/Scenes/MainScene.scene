@@ -9,8 +9,8 @@
             "camera": "5d458fb07ebc4ab1bec3290ec3fe786c",
             "uiScaleMode": 1,
             "referenceResolution": {
-                "x": 1280,
-                "y": 720
+                "x": 828,
+                "y": 1792
             },
             "matchWidthOrHeight": 1
         }, {
@@ -94,6 +94,359 @@
         "Components": [{
             "$type": "Unity.Tiny.Core2D.Parent, Unity.Tiny.Core2D"
         }, {
+            "$type": "Unity.Tiny.Core2D.Sprite2DRenderer, Unity.Tiny.Sprite2D",
+            "color": {
+                "r": 0.6698113,
+                "g": 0.6698113,
+                "b": 0.6698113
+            },
+            "blending": 0
+        }, {
+            "$type": "RocketMan.Rocket, RocketMan"
+        }, {
+            "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core",
+            "Index": 3
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 647120923995229649,
+            "b": 10734578477378704927
+        }, {
+            "$type": "Unity.Tiny.Core2D.Translation, Unity.Tiny.Core2D",
+            "Value": {
+                "y": -20
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.Rotation, Unity.Tiny.Core2D",
+            "Value": {
+                "value": {}
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.NonUniformScale, Unity.Tiny.Core2D",
+            "Value": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.Sprite2DRendererOptions, Unity.Tiny.Sprite2D",
+            "size": {
+                "x": 1,
+                "y": 1
+            },
+            "drawMode": 2
+        }, {
+            "$type": "Unity.Tiny.Core.EntityName, Unity.Tiny.Core",
+            "Elements": [{
+                "c": "r"
+            }, {
+                "c": "o"
+            }, {
+                "c": "c"
+            }, {
+                "c": "k"
+            }, {
+                "c": "e"
+            }, {
+                "c": "t"
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 793987765392955020
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 266869500686333426
+            }, {
+                "StableTypeHash": 9104342357061045742
+            }, {
+                "StableTypeHash": 17378348762221180850
+            }, {
+                "StableTypeHash": 874803706151837934
+            }, {
+                "StableTypeHash": 12932679046359085526
+            }, {
+                "StableTypeHash": 147127668789581756
+            }, {
+                "StableTypeHash": 3578690671509218306
+            }]
+        }]
+    }, {
+        "Components": [{
+            "$type": "Unity.Tiny.UIControls.Button, Unity.Tiny.UIControls",
+            "sprite2DRenderer": "366df64c05bb4ddaaed5f7557c95978e",
+            "transition": "366df64c05bb4ddaaed5f7557c95978e"
+        }, {
+            "$type": "Unity.Tiny.Core2D.Parent, Unity.Tiny.Core2D",
+            "Value": "02d37fd3c22b4cf5a3096c45d5976d27"
+        }, {
+            "$type": "Unity.Tiny.Core2D.Sprite2DRenderer, Unity.Tiny.Sprite2D",
+            "color": {
+                "r": 0.735849,
+                "g": 0.528962,
+                "b": 0.4338732
+            },
+            "blending": 0
+        }, {
+            "$type": "RocketMan.SetButton, RocketMan",
+            "direciton": {
+                "x": -1
+            }
+        }, {
+            "$type": "Unity.Tiny.UIControls.PointerInteraction, Unity.Tiny.UIControls"
+        }, {
+            "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core",
+            "Index": 1
+        }, {
+            "$type": "Unity.Tiny.UILayout.RectTransform, Unity.Tiny.UILayout",
+            "anchorMin": {},
+            "anchorMax": {},
+            "sizeDelta": {
+                "x": 100,
+                "y": 100
+            },
+            "anchoredPosition": {
+                "x": 200,
+                "y": 200
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 3922061656883678682,
+            "b": 12598247479173289870
+        }, {
+            "$type": "Unity.Tiny.Core2D.Translation, Unity.Tiny.Core2D",
+            "Value": {}
+        }, {
+            "$type": "Unity.Tiny.Core2D.Rotation, Unity.Tiny.Core2D",
+            "Value": {
+                "value": {}
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.NonUniformScale, Unity.Tiny.Core2D",
+            "Value": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.LayerSorting, Unity.Tiny.Core2D",
+            "order": 2
+        }, {
+            "$type": "Unity.Tiny.Core2D.Sprite2DRendererOptions, Unity.Tiny.Sprite2D",
+            "size": {
+                "x": 1,
+                "y": 1
+            },
+            "drawMode": 2
+        }, {
+            "$type": "Unity.Tiny.Core.EntityName, Unity.Tiny.Core",
+            "Elements": [{
+                "c": "s"
+            }, {
+                "c": "e"
+            }, {
+                "c": "t"
+            }, {
+                "c": "B"
+            }, {
+                "c": "u"
+            }, {
+                "c": "t"
+            }, {
+                "c": "t"
+            }, {
+                "c": "o"
+            }, {
+                "c": "n"
+            }, {
+                "c": "L"
+            }, {
+                "c": "e"
+            }, {
+                "c": "f"
+            }, {
+                "c": "t"
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 793987765392955020
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 8141980912335510258
+            }, {
+                "StableTypeHash": 266869500686333426
+            }, {
+                "StableTypeHash": 9104342357061045742
+            }, {
+                "StableTypeHash": 874803706151837934
+            }, {
+                "StableTypeHash": 17378348762221180850
+            }, {
+                "StableTypeHash": 5378123052767168278
+            }, {
+                "StableTypeHash": 12932679046359085526
+            }, {
+                "StableTypeHash": 11301794271907081408
+            }, {
+                "StableTypeHash": 16791256614846730296
+            }, {
+                "StableTypeHash": 147127668789581756
+            }, {
+                "StableTypeHash": 16868731598573256406
+            }]
+        }]
+    }, {
+        "Components": [{
+            "$type": "Unity.Tiny.UIControls.Button, Unity.Tiny.UIControls",
+            "sprite2DRenderer": "37265794d3314c04ae84b6944e713ec1",
+            "transition": "37265794d3314c04ae84b6944e713ec1"
+        }, {
+            "$type": "Unity.Tiny.Core2D.Parent, Unity.Tiny.Core2D",
+            "Value": "02d37fd3c22b4cf5a3096c45d5976d27"
+        }, {
+            "$type": "Unity.Tiny.Core2D.Sprite2DRenderer, Unity.Tiny.Sprite2D",
+            "color": {
+                "r": 0.735849,
+                "g": 0.528962,
+                "b": 0.4338732
+            },
+            "blending": 0
+        }, {
+            "$type": "RocketMan.SetButton, RocketMan",
+            "direciton": {
+                "y": -1
+            }
+        }, {
+            "$type": "Unity.Tiny.UIControls.PointerInteraction, Unity.Tiny.UIControls"
+        }, {
+            "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core",
+            "Index": 4
+        }, {
+            "$type": "Unity.Tiny.UILayout.RectTransform, Unity.Tiny.UILayout",
+            "anchorMin": {
+                "x": 1,
+                "y": 0.5
+            },
+            "anchorMax": {
+                "x": 1,
+                "y": 0.5
+            },
+            "sizeDelta": {
+                "x": 100,
+                "y": 100
+            },
+            "anchoredPosition": {
+                "x": -200,
+                "y": -200
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 3973960017911041028,
+            "b": 12575376807612726977
+        }, {
+            "$type": "Unity.Tiny.Core2D.Translation, Unity.Tiny.Core2D",
+            "Value": {}
+        }, {
+            "$type": "Unity.Tiny.Core2D.Rotation, Unity.Tiny.Core2D",
+            "Value": {
+                "value": {}
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.NonUniformScale, Unity.Tiny.Core2D",
+            "Value": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.LayerSorting, Unity.Tiny.Core2D",
+            "order": 2
+        }, {
+            "$type": "Unity.Tiny.Core2D.Sprite2DRendererOptions, Unity.Tiny.Sprite2D",
+            "size": {
+                "x": 1,
+                "y": 1
+            },
+            "drawMode": 2
+        }, {
+            "$type": "Unity.Tiny.Core.EntityName, Unity.Tiny.Core",
+            "Elements": [{
+                "c": "s"
+            }, {
+                "c": "e"
+            }, {
+                "c": "t"
+            }, {
+                "c": "B"
+            }, {
+                "c": "u"
+            }, {
+                "c": "t"
+            }, {
+                "c": "t"
+            }, {
+                "c": "o"
+            }, {
+                "c": "n"
+            }, {
+                "c": "D"
+            }, {
+                "c": "o"
+            }, {
+                "c": "w"
+            }, {
+                "c": "n"
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 793987765392955020
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 8141980912335510258
+            }, {
+                "StableTypeHash": 266869500686333426
+            }, {
+                "StableTypeHash": 9104342357061045742
+            }, {
+                "StableTypeHash": 874803706151837934
+            }, {
+                "StableTypeHash": 17378348762221180850
+            }, {
+                "StableTypeHash": 5378123052767168278
+            }, {
+                "StableTypeHash": 12932679046359085526
+            }, {
+                "StableTypeHash": 11301794271907081408
+            }, {
+                "StableTypeHash": 16791256614846730296
+            }, {
+                "StableTypeHash": 147127668789581756
+            }, {
+                "StableTypeHash": 16868731598573256406
+            }]
+        }]
+    }, {
+        "Components": [{
+            "$type": "Unity.Tiny.Core2D.Parent, Unity.Tiny.Core2D"
+        }, {
             "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core",
             "Index": 1
         }, {
@@ -102,15 +455,15 @@
             "b": 13745875631059400812
         }, {
             "$type": "Unity.Tiny.Core2D.Camera2D, Unity.Tiny.Core2D",
-            "halfVerticalSize": 30,
+            "halfVerticalSize": 25,
             "rect": {
                 "width": 1,
                 "height": 1
             },
             "backgroundColor": {
-                "r": 0.132387,
-                "g": 0.1428834,
-                "b": 0.1603774,
+                "r": 0.1333333,
+                "g": 0.1411765,
+                "b": 0.1607843,
                 "a": 1
             },
             "clearFlags": 1,
@@ -185,6 +538,8 @@
             },
             "blending": 0
         }, {
+            "$type": "RocketMan.StartButton, RocketMan"
+        }, {
             "$type": "Unity.Tiny.UIControls.PointerInteraction, Unity.Tiny.UIControls"
         }, {
             "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core"
@@ -236,8 +591,6 @@
                 "y": 1
             },
             "drawMode": 2
-        }, {
-            "$type": "RocketMan.StartButton, RocketMan"
         }, {
             "$type": "Unity.Tiny.Core.EntityName, Unity.Tiny.Core",
             "Elements": [{
@@ -301,12 +654,369 @@
         }, {
             "$type": "Unity.Tiny.Core2D.Sprite2DRenderer, Unity.Tiny.Sprite2D",
             "color": {
+                "r": 0.254717,
+                "g": 0.254717,
+                "b": 0.254717
+            },
+            "blending": 0
+        }, {
+            "$type": "RocketMan.Ground, RocketMan"
+        }, {
+            "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core",
+            "Index": 4
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 9527628299854627267,
+            "b": 11505224323955709226
+        }, {
+            "$type": "Unity.Tiny.Core2D.Translation, Unity.Tiny.Core2D",
+            "Value": {
+                "y": -33
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.Rotation, Unity.Tiny.Core2D",
+            "Value": {
+                "value": {}
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.NonUniformScale, Unity.Tiny.Core2D",
+            "Value": {
+                "x": 100,
+                "y": 25,
+                "z": 1
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.Sprite2DRendererOptions, Unity.Tiny.Sprite2D",
+            "size": {
+                "x": 1,
+                "y": 1
+            },
+            "drawMode": 2
+        }, {
+            "$type": "Unity.Tiny.Core.EntityName, Unity.Tiny.Core",
+            "Elements": [{
+                "c": "g"
+            }, {
+                "c": "r"
+            }, {
+                "c": "o"
+            }, {
+                "c": "u"
+            }, {
+                "c": "n"
+            }, {
+                "c": "d"
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 793987765392955020
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 266869500686333426
+            }, {
+                "StableTypeHash": 9104342357061045742
+            }, {
+                "StableTypeHash": 17378348762221180850
+            }, {
+                "StableTypeHash": 874803706151837934
+            }, {
+                "StableTypeHash": 12932679046359085526
+            }, {
+                "StableTypeHash": 147127668789581756
+            }, {
+                "StableTypeHash": 8289792152265783383
+            }]
+        }]
+    }, {
+        "Components": [{
+            "$type": "Unity.Tiny.UIControls.Button, Unity.Tiny.UIControls",
+            "sprite2DRenderer": "9ae1648b795e42999d4e185c56c97049",
+            "transition": "9ae1648b795e42999d4e185c56c97049"
+        }, {
+            "$type": "Unity.Tiny.Core2D.Parent, Unity.Tiny.Core2D",
+            "Value": "02d37fd3c22b4cf5a3096c45d5976d27"
+        }, {
+            "$type": "Unity.Tiny.Core2D.Sprite2DRenderer, Unity.Tiny.Sprite2D",
+            "color": {
+                "r": 0.735849,
+                "g": 0.528962,
+                "b": 0.4338732
+            },
+            "blending": 0
+        }, {
+            "$type": "RocketMan.SetButton, RocketMan",
+            "direciton": {
+                "x": 1
+            }
+        }, {
+            "$type": "Unity.Tiny.UIControls.PointerInteraction, Unity.Tiny.UIControls"
+        }, {
+            "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core",
+            "Index": 2
+        }, {
+            "$type": "Unity.Tiny.UILayout.RectTransform, Unity.Tiny.UILayout",
+            "anchorMin": {
+                "x": 1
+            },
+            "anchorMax": {
+                "x": 1
+            },
+            "sizeDelta": {
+                "x": 100,
+                "y": 100
+            },
+            "anchoredPosition": {
+                "x": -200,
+                "y": 200
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 11160311901800252057,
+            "b": 11335024097010217033
+        }, {
+            "$type": "Unity.Tiny.Core2D.Translation, Unity.Tiny.Core2D",
+            "Value": {}
+        }, {
+            "$type": "Unity.Tiny.Core2D.Rotation, Unity.Tiny.Core2D",
+            "Value": {
+                "value": {}
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.NonUniformScale, Unity.Tiny.Core2D",
+            "Value": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.LayerSorting, Unity.Tiny.Core2D",
+            "order": 2
+        }, {
+            "$type": "Unity.Tiny.Core2D.Sprite2DRendererOptions, Unity.Tiny.Sprite2D",
+            "size": {
+                "x": 1,
+                "y": 1
+            },
+            "drawMode": 2
+        }, {
+            "$type": "Unity.Tiny.Core.EntityName, Unity.Tiny.Core",
+            "Elements": [{
+                "c": "s"
+            }, {
+                "c": "e"
+            }, {
+                "c": "t"
+            }, {
+                "c": "B"
+            }, {
+                "c": "u"
+            }, {
+                "c": "t"
+            }, {
+                "c": "t"
+            }, {
+                "c": "o"
+            }, {
+                "c": "n"
+            }, {
+                "c": "R"
+            }, {
+                "c": "i"
+            }, {
+                "c": "g"
+            }, {
+                "c": "h"
+            }, {
+                "c": "t"
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 793987765392955020
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 8141980912335510258
+            }, {
+                "StableTypeHash": 266869500686333426
+            }, {
+                "StableTypeHash": 9104342357061045742
+            }, {
+                "StableTypeHash": 874803706151837934
+            }, {
+                "StableTypeHash": 17378348762221180850
+            }, {
+                "StableTypeHash": 5378123052767168278
+            }, {
+                "StableTypeHash": 12932679046359085526
+            }, {
+                "StableTypeHash": 11301794271907081408
+            }, {
+                "StableTypeHash": 16791256614846730296
+            }, {
+                "StableTypeHash": 147127668789581756
+            }, {
+                "StableTypeHash": 16868731598573256406
+            }]
+        }]
+    }, {
+        "Components": [{
+            "$type": "Unity.Tiny.UIControls.Button, Unity.Tiny.UIControls",
+            "sprite2DRenderer": "d9d61ddfc163411db3a54e9c1a52eb1e",
+            "transition": "d9d61ddfc163411db3a54e9c1a52eb1e"
+        }, {
+            "$type": "Unity.Tiny.Core2D.Parent, Unity.Tiny.Core2D",
+            "Value": "02d37fd3c22b4cf5a3096c45d5976d27"
+        }, {
+            "$type": "Unity.Tiny.Core2D.Sprite2DRenderer, Unity.Tiny.Sprite2D",
+            "color": {
+                "r": 0.735849,
+                "g": 0.528962,
+                "b": 0.4338732
+            },
+            "blending": 0
+        }, {
+            "$type": "RocketMan.SetButton, RocketMan",
+            "direciton": {
+                "y": 1
+            }
+        }, {
+            "$type": "Unity.Tiny.UIControls.PointerInteraction, Unity.Tiny.UIControls"
+        }, {
+            "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core",
+            "Index": 3
+        }, {
+            "$type": "Unity.Tiny.UILayout.RectTransform, Unity.Tiny.UILayout",
+            "anchorMin": {
+                "x": 1,
+                "y": 0.5
+            },
+            "anchorMax": {
+                "x": 1,
+                "y": 0.5
+            },
+            "sizeDelta": {
+                "x": 100,
+                "y": 100
+            },
+            "anchoredPosition": {
+                "x": -200,
+                "y": 200
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 15696766398105862429,
+            "b": 12944839136309865246
+        }, {
+            "$type": "Unity.Tiny.Core2D.Translation, Unity.Tiny.Core2D",
+            "Value": {}
+        }, {
+            "$type": "Unity.Tiny.Core2D.Rotation, Unity.Tiny.Core2D",
+            "Value": {
+                "value": {}
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.NonUniformScale, Unity.Tiny.Core2D",
+            "Value": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.LayerSorting, Unity.Tiny.Core2D",
+            "order": 2
+        }, {
+            "$type": "Unity.Tiny.Core2D.Sprite2DRendererOptions, Unity.Tiny.Sprite2D",
+            "size": {
+                "x": 1,
+                "y": 1
+            },
+            "drawMode": 2
+        }, {
+            "$type": "Unity.Tiny.Core.EntityName, Unity.Tiny.Core",
+            "Elements": [{
+                "c": "s"
+            }, {
+                "c": "e"
+            }, {
+                "c": "t"
+            }, {
+                "c": "B"
+            }, {
+                "c": "u"
+            }, {
+                "c": "t"
+            }, {
+                "c": "t"
+            }, {
+                "c": "o"
+            }, {
+                "c": "n"
+            }, {
+                "c": "U"
+            }, {
+                "c": "p"
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 793987765392955020
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 8141980912335510258
+            }, {
+                "StableTypeHash": 266869500686333426
+            }, {
+                "StableTypeHash": 9104342357061045742
+            }, {
+                "StableTypeHash": 874803706151837934
+            }, {
+                "StableTypeHash": 17378348762221180850
+            }, {
+                "StableTypeHash": 5378123052767168278
+            }, {
+                "StableTypeHash": 12932679046359085526
+            }, {
+                "StableTypeHash": 11301794271907081408
+            }, {
+                "StableTypeHash": 16791256614846730296
+            }, {
+                "StableTypeHash": 147127668789581756
+            }, {
+                "StableTypeHash": 16868731598573256406
+            }]
+        }]
+    }, {
+        "Components": [{
+            "$type": "Unity.Tiny.Core2D.Parent, Unity.Tiny.Core2D"
+        }, {
+            "$type": "Unity.Tiny.Core2D.Sprite2DRenderer, Unity.Tiny.Sprite2D",
+            "color": {
                 "r": 1,
                 "g": 0.004716992,
                 "b": 0.004716992,
                 "a": 1
             },
             "blending": 0
+        }, {
+            "$type": "RocketMan.Planet, RocketMan"
         }, {
             "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core",
             "Index": 2
@@ -336,8 +1046,6 @@
                 "y": 1
             },
             "drawMode": 2
-        }, {
-            "$type": "RocketMan.Planet, RocketMan"
         }, {
             "$type": "Unity.Tiny.Core.EntityName, Unity.Tiny.Core",
             "Elements": [{
