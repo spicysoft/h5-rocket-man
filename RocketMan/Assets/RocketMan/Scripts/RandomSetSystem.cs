@@ -28,7 +28,7 @@ namespace RocketMan
             Entities.ForEach((Entity entity, ref Planet planet, ref Translation Transform, ref Sprite2DRenderer sprite2DRenderer) =>
             {
                 sprite2DRenderer.color.a = 1;
-                Transform.Value = _random.NextInt3(new int3(x: -10, y: -10, z: 0), new int3(x: 10, y: 10, z: 0));
+                Transform.Value = _random.NextInt3(new int3(x: -config.XRandomMax, y: -config.YRandomMax, z: 0), new int3(x: config.XRandomMax, y: config.YRandomMax, z: 0));
                 config.PlanetLocation = Transform;
             });
 

@@ -22,15 +22,12 @@ namespace RocketMan
                 tinyEnv.SetConfigData(config);
 
             });
-
             Entities.WithAll<BestScoreText>().ForEach((Entity entity) =>
             {
                 EntityManager.SetBufferFromString<TextString>(entity, "BestScore:" + config.BestScore.ToString());
                 tinyEnv.SetConfigData(config);
 
             });
-
-
             tinyEnv.SetConfigData(config);
         }
     }

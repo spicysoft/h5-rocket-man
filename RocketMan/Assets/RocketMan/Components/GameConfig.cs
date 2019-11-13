@@ -19,6 +19,8 @@ namespace RocketMan
         public int Score;
         public int BestScore;
         public int Rounds;
+        public int YRandomMax;
+        public int XRandomMax;
         public Translation answerDirectiion;
 
         public Translation PlanetLocation;

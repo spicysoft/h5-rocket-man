@@ -37,6 +37,15 @@ namespace RocketMan
                 {
                     speed = 0;
                     Transform.Value = config.answerDirectiion.Value;
+
+
+
+                    Entities.ForEach((Entity _entity, ref Fire fire, ref Sprite2DRenderer sprite2DRenderer) =>
+                    {
+                        sprite2DRenderer.color.a = 0;
+                    });
+
+
                     if (correct)
                     {
                         nonUniformScale.Value -= World.TinyEnvironment().frameDeltaTime * scaleSpeed;
@@ -51,6 +60,11 @@ namespace RocketMan
                                 sprite2DRenderer.color.a = 1;
                             });
 
+                            Entities.ForEach((Entity _entity, ref Success success, ref Sprite2DRenderer sprite2DRenderer) =>
+                            {
+                                sprite2DRenderer.color.a = 1;
+                            });
+
                         }
                     }
                     else
@@ -58,6 +72,10 @@ namespace RocketMan
                         speed = 5;
                         config.judgeSystem = false;
                         Entities.ForEach((Entity _entity, ref RetryButton retryButton, ref Sprite2DRenderer sprite2DRenderer) =>
+                        {
+                            sprite2DRenderer.color.a = 1;
+                        });
+                        Entities.ForEach((Entity _entity, ref GameOverTitle gameOver, ref Sprite2DRenderer sprite2DRenderer) =>
                         {
                             sprite2DRenderer.color.a = 1;
                         });

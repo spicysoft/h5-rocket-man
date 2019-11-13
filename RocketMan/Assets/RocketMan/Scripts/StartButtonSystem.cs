@@ -28,6 +28,14 @@ namespace RocketMan
 
             if (startButton)
             {
+
+                Entities.ForEach((Entity entity, ref Title title, ref Translation Transform, ref Sprite2DRenderer sprite2DRenderer) =>
+                {
+                    sprite2DRenderer.color.a = 0;
+
+                });
+
+
                 config.RandomSet = true;
                 startButton = false;
                 tinyEnv.SetConfigData(config);

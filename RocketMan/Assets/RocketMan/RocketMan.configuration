@@ -6,9 +6,11 @@
     "Entities": [{
         "Components": [{
             "$type": "RocketMan.GameConfig, RocketMan",
+            "YRandomMax": 10,
+            "XRandomMax": 5,
             "answerDirectiion": {
                 "Value": {
-                    "y": -12
+                    "y": -10
                 }
             },
             "PlanetLocation": {
@@ -75,6 +77,10 @@
                 "StableTypeHash": 5240318078730267560
             }, {
                 "StableTypeHash": 8230055549482875749
+            }, {
+                "StableTypeHash": 13519223366547503551
+            }, {
+                "StableTypeHash": 10033088851668357088
             }]
         }, {
             "$type": "Unity.Authoring.Core.ConfigurationTag, Unity.Authoring.Core"

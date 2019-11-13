@@ -21,18 +21,51 @@ namespace RocketMan
                 setButton = pointerInteraction.down;
                 if (setButton)
                 {
-                    config.answerDirectiion.Value += set.direciton * World.TinyEnvironment().frameDeltaTime * speed;
-                    tinyEnv.SetConfigData(config);
-                }
+                    if(set.direciton.y == 1 || set.direciton.y == -1)
+                    {
+                        if (config.answerDirectiion.Value.y >= -config.YRandomMax && config.answerDirectiion.Value.y <= config.YRandomMax)
+                        {
+                            config.answerDirectiion.Value += set.direciton * World.TinyEnvironment().frameDeltaTime * speed;
 
+                            if (config.answerDirectiion.Value.y < -config.YRandomMax)
+                            {
+                                config.answerDirectiion.Value.y = -config.YRandomMax;
+                            }
+                            else if (config.answerDirectiion.Value.y > config.YRandomMax)
+                            {
+                                config.answerDirectiion.Value.y = config.YRandomMax;
+                            }
+
+
+                            tinyEnv.SetConfigData(config);
+                        }
+                    }
+
+                    else if(set.direciton.x == 1 || set.direciton.x == -1)
+                    {
+                        if (config.answerDirectiion.Value.x >= -config.XRandomMax && config.answerDirectiion.Value.x <= config.XRandomMax)
+                        {
+                            config.answerDirectiion.Value += set.direciton * World.TinyEnvironment().frameDeltaTime * speed;
+
+                            if (config.answerDirectiion.Value.x < -config.XRandomMax)
+                            {
+                                config.answerDirectiion.Value.x = -config.XRandomMax;
+                            }
+                            else if (config.answerDirectiion.Value.x > config.XRandomMax)
+                            {
+                                config.answerDirectiion.Value.x = config.XRandomMax;
+                            }
+
+
+                            tinyEnv.SetConfigData(config);
+                        }
+
+                    }
+
+
+                }
             });
 
-
-            //if (setButton)
-            //{
-            //    //setButton = false;
-            //    //tinyEnv.SetConfigData(config);
-            //}
         }
     }
 }

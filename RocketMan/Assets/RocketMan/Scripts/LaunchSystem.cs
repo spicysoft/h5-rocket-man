@@ -19,7 +19,10 @@ namespace RocketMan
             if (!config.launchSystem)
                 return;
 
-
+            Entities.ForEach((Entity entity, ref Fire fire, ref Sprite2DRenderer sprite2DRenderer) =>
+            {
+                sprite2DRenderer.color.a = 1;
+            });
             Entities.ForEach((Entity entity, ref Rocket rocket, ref Translation Transform) =>
             {
                 Transform.Value += direction * World.TinyEnvironment().frameDeltaTime * speed;

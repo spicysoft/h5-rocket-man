@@ -27,7 +27,10 @@ namespace RocketMan
             {
                 sprite2DRenderer.color.a = 0;
             });
-
+            Entities.ForEach((Entity entity, ref Mountain mountain, ref Sprite2DRenderer sprite2DRenderer, ref Translation Transform) =>
+            {
+                sprite2DRenderer.color.a = 0;
+            });
             Entities.ForEach((Entity entity, ref SetButton setButton, ref Sprite2DRenderer sprite2DRenderer, ref Translation Transform) =>
             {
                 sprite2DRenderer.color.a = 0;
@@ -42,8 +45,14 @@ namespace RocketMan
                 sprite2DRenderer.color.a = 0;
             });
 
-
-
+            Entities.ForEach((Entity entity, ref PowerBase powerBase, ref Sprite2DRenderer sprite2DRenderer) =>
+            {
+                sprite2DRenderer.color.a = 0;
+            });
+            Entities.ForEach((Entity entity, ref Star star, ref Sprite2DRenderer sprite2DRenderer, ref Translation Transform) =>
+            {
+                sprite2DRenderer.color.a = 1;
+            });
             Entities.ForEach((Entity entity, ref Camera2D camera) =>
             {
                 camera.backgroundColor = new Color(0.1333333f, 0.1411765f, 0.1607843f);
