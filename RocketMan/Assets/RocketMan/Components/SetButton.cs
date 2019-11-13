@@ -6,7 +6,7 @@ namespace RocketMan
 {
     public struct SetButton : IComponentData
     {
-        public int3 direciton;
+        public float3 direciton;
     }
 }
 

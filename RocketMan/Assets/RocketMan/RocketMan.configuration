@@ -6,6 +6,11 @@
     "Entities": [{
         "Components": [{
             "$type": "RocketMan.GameConfig, RocketMan",
+            "answerDirectiion": {
+                "Value": {
+                    "y": -12
+                }
+            },
             "PlanetLocation": {
                 "Value": {}
             }
@@ -50,6 +55,26 @@
                 "StableTypeHash": 13114927604715643739
             }, {
                 "StableTypeHash": 8678841606301606612
+            }, {
+                "StableTypeHash": 12544781181571051962
+            }, {
+                "StableTypeHash": 15683699821006379260
+            }, {
+                "StableTypeHash": 12496688451209297939
+            }, {
+                "StableTypeHash": 17372132996831941383
+            }, {
+                "StableTypeHash": 11760156014612571570
+            }, {
+                "StableTypeHash": 3822737335360368716
+            }, {
+                "StableTypeHash": 15019762043570291639
+            }, {
+                "StableTypeHash": 16603002910815860799
+            }, {
+                "StableTypeHash": 5240318078730267560
+            }, {
+                "StableTypeHash": 8230055549482875749
             }]
         }, {
             "$type": "Unity.Authoring.Core.ConfigurationTag, Unity.Authoring.Core"

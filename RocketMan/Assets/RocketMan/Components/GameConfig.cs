@@ -9,8 +9,17 @@ namespace RocketMan
         public bool RandomSet;
         public bool WaitforSeconds;
         public bool changeScreen;
+        public bool setting;
+        public bool launchSystem;
+        public bool changeScreen2;
+        public bool judgeSystem;
+        public bool retrySystem;
+        public bool nextSystem;
 
-        public int3 answerDirectiion;
+        public int Score;
+        public int BestScore;
+        public int Rounds;
+        public Translation answerDirectiion;
 
         public Translation PlanetLocation;
     }
