@@ -19,9 +19,12 @@ namespace RocketMan
             config.Rounds = 0;
             config.Score = 0;
             config.answerDirectiion.Value = new float3(0, -config.YRandomMax, 0);
-            Entities.ForEach((Entity entity, ref Planet planet, ref Sprite2DRenderer sprite2DRenderer, ref Translation Transform) =>
+            config.distance = 1.5f;
+            Entities.ForEach((Entity entity, ref Planet planet, ref Sprite2DRenderer sprite2DRenderer, ref Translation Transform,ref Sprite2DRendererOptions sprite2DRendererOptions) =>
             {
+                sprite2DRenderer.color = new Color(0.764151f, 0.6099718f, 0.3496351f);
                 sprite2DRenderer.color.a = 0;
+                sprite2DRendererOptions.size = new float2(3, 3);
             });
             Entities.ForEach((Entity entity, ref StartButton startButton, ref Sprite2DRenderer sprite2DRenderer, ref Translation Transform) =>
             {

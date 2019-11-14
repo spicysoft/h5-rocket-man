@@ -10,7 +10,7 @@ namespace RocketMan
         float scaleSpeed = 2;
         float3 direction = new float3(0, 1, 0);
         bool correct;
-        float distance =1.5f;
+        //float distance =1.5f;
         int Point = 10;
 
         protected override void OnUpdate()
@@ -21,7 +21,7 @@ namespace RocketMan
             if (!config.judgeSystem)
                 return;
 
-            if(math.distance(config.answerDirectiion.Value,config.PlanetLocation.Value) < distance)
+            if(math.distance(config.answerDirectiion.Value,config.PlanetLocation.Value) < config.distance)
             {
                 correct = true;
             }

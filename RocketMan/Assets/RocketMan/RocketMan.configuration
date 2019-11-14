@@ -6,8 +6,10 @@
     "Entities": [{
         "Components": [{
             "$type": "RocketMan.GameConfig, RocketMan",
+            "Rounds": 5,
             "YRandomMax": 10,
             "XRandomMax": 5,
+            "distance": 1.5,
             "answerDirectiion": {
                 "Value": {
                     "y": -10
@@ -81,6 +83,8 @@
                 "StableTypeHash": 13519223366547503551
             }, {
                 "StableTypeHash": 10033088851668357088
+            }, {
+                "StableTypeHash": 11841539439478160656
             }]
         }, {
             "$type": "Unity.Authoring.Core.ConfigurationTag, Unity.Authoring.Core"

@@ -20,8 +20,14 @@ namespace RocketMan
                Transform.Value.x = config.answerDirectiion.Value.x ;
             });
 
+            Entities.ForEach((Entity entity, ref PowerBase powerBase, ref Translation Transform) =>
+            {
+                Transform.Value.x = config.answerDirectiion.Value.x;
+            });
+
             Entities.ForEach((Entity entity, ref PowerGage powerGage, ref Translation Transform) =>
             {
+                Transform.Value.x = config.answerDirectiion.Value.x;
                 Transform.Value.y = config.answerDirectiion.Value.y;
             });
         }

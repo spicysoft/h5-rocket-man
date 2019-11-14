@@ -21,6 +21,7 @@ namespace RocketMan
         public int Rounds;
         public int YRandomMax;
         public int XRandomMax;
+        public float distance;
         public Translation answerDirectiion;
 
         public Translation PlanetLocation;
