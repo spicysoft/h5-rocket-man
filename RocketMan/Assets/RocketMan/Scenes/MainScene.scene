@@ -658,7 +658,7 @@
             },
             "anchoredPosition": {
                 "x": 200,
-                "y": 200
+                "y": 256
             },
             "pivot": {
                 "x": 0.5,
@@ -1525,7 +1525,9 @@
             "cullingMode": 0
         }, {
             "$type": "Unity.Tiny.Core2D.Translation, Unity.Tiny.Core2D",
-            "Value": {}
+            "Value": {
+                "y": -1
+            }
         }, {
             "$type": "Unity.Tiny.Core2D.Rotation, Unity.Tiny.Core2D",
             "Value": {
@@ -2398,7 +2400,7 @@
             },
             "anchoredPosition": {
                 "x": -200,
-                "y": 400
+                "y": 500
             },
             "pivot": {
                 "x": 0.5,
@@ -2729,7 +2731,7 @@
             },
             "anchoredPosition": {
                 "x": -200,
-                "y": 200
+                "y": 256
             },
             "pivot": {
                 "x": 0.5,
